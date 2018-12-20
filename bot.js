@@ -7,36 +7,19 @@ console.log("Welcome Again  by Fox!");
 
 
 Client.on("guildMemberRemove", member => {
-  member.send(`**
-   نضام أنفايت جديد  :herb: 
-  
-  :bow_and_arrow:  2 Invites ==> 10k Credits  :bow_and_arrow: 
-  
-  :bow_and_arrow:  4 invites ==> Visa 25$  :bow_and_arrow:
-  
-  :bow_and_arrow:  ملاحضة : فيزا صالحة لشراء نيترو :Nitro: و تفعيل بايبال :Paypal:  و خوادم  :bow_and_arrow:**
-  
-  https://discord.gg/XENJNEQ
+  member.send(`**سلام عليكم شباب:wave: 
+انتمى انكم تدخلوا سيرفر ده:100: 
+:يقدم سيرفر:stuck_out_tongue: 
+قيف اوايات على فورتنايت سبوتفاي تاقات كلشي:scream: 
+انفايت ريويرد جيب 3 تأخذ 15 الف كريدت:hushed: 
+فعاليات:ok_hand: 
+بوتات ديسكورد:kiss: 
+سولف الخ....:ribbon:
+https://discord.gg/hJEnCE
+
 [${member}]**`);
 
   });
- 
-
-  Client.on('guildMemberAdd', member => {
-  member.send(`**نضام أنفايت جديد  :herb: 
-  
-  :bow_and_arrow:  2 Invites ==> 10k Credits  :bow_and_arrow: 
-  
-  :bow_and_arrow:  4 invites ==> Visa 25$  :bow_and_arrow:
-  
-  :bow_and_arrow:  ملاحضة : فيزا صالحة لشراء نيترو :Nitro: و تفعيل بايبال :Paypal:  و خوادم  :bow_and_arrow:**
-  
-  https://discord.gg/XENJNEQ
-[${member}]**`);
-
-
-  });
-
 
 
 Client.login(process.env.BOT_TOKEN);
